@@ -1,147 +1,46 @@
-/*fuentes de google
-@font-face{
-    font-family: 'PTSans-Regular';
-    src: url('../assets/fonts/PTSans-Regular.ttf');
-}*/
-/*reseteo de valores*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgba(46, 43, 43, 0.767);
+.colorFondo{
+    background-color: black !important;
 }
 
-.header{
-    .contenedorLogo{
-        padding-left:1px;/*para separar el logo de la pantalla*/
-        padding-top:1px;
-        width:20%;
-        display:inline-block;/*para que se ubique al lado de la navegacion*/
-        .logo{
-            width:100px;
-        }
-    }
-   
-    background-color: black;
-    color:white;
-    .navegacion{
-        display:inline-block;/*para que se ubique al lado del contenedor logo*/
-        width: 79%;
-        text-align:right;
-        .listaNav{/*ul*/
-            list-style: none;
-            /*text-align:right;*/
-            .listaItem{ /*li*/
-                display: inline-block;
-                .linkNav{/*a*/
-                    display: inline-block;
-                    text-decoration: none;
-                    color:white;
-                    font-size: 2rem;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                    border:1px solid rgba(99, 30, 13, 0.562);
-                }
-            }
-           
-        }
-    }
-   
+.colorFuente{
+    color: white !important;
 }
-.tituloPrincipal{
-    font-family: 'PTSans-Regular';
-    font-size: 3rem;
-    width: 80%;
-    margin:50px auto;
-    text-align:center;
-    position: top;
-    top:100px;
-    ;
+
+.colorFondoGris{
+    background-color:rgb(71, 71, 71)
 }
-.imagenMain{
-    width: 50%;
-    display: inline-block;
+body footer div a img{
+    color: chartreuse !important;
 }
-.imagenMain img{
+.imagenNosotros{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.parrafoMain{
-   
-    width: 49%;
     display: inline-block;
-    line-height: 2;
-    font-size:1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
-.parrafoMain span{
-    font-weight: bold;
-    color: black;
-}
-
-.contenedorTarjetas{
-    width: 90%;
-    margin:30px auto;
-   /* background-color:rgb(215, 215, 215);*/
-    text-align: center;
-}
-
-.colorin{
-    color: black;
-}
-
-.tarjeta{
-    
-    background-color: rgb(171, 171, 171);
-    width:30%;
+.imagenLaRaza{
+    width: 100%;
     display: inline-block;
-    border:1px solid whitesmoke;
-    border-radius:5px;
-    margin-right: 20px;
-    
+    justify-content: center;
+    align-items: center;
 }
-
-.tarjeta img{
-    color: black;
-    /*opacity: 0.5;*/
-    /*filter: blur(5%);*/
-    width: 95%;
-   /* height: 100%;*/
-    object-fit: cover;
+.imagenes{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
-
-
-.footer{
-    color:white;
-    background-color: black;
-}
-.imagenFooter{
-    /*background-image:url("../assets/img/ola_pie.png");*/
+.imagenContacto{
+    background-image: url("../assets/img/CONTACTO.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-   /* height:40vh;*/
-}
-.elementoInlineBlock{
-    color: white;
-    display: inline-block;
-    width: 22%;
-    margin: 20px 1%;
-    text-align: center;
-}
-
-.elementoInlineBlock iframe{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.redes{
-    font-size: 3rem;
-    color:white;
-    margin-right: 10px;
+    height: 100vh;
 }
